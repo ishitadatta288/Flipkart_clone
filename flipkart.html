@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+    </title>
+    <link rel="icon"
+        href="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-cbb357.png">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo"></div>
+        <img src="logo.svg" alt="">
+        <div class="search"></div>
+        <div class="searchbar">
+            <span>
+                <svg width="24" height="24" class="" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <title>Search Icon</title>
+                    <path
+                        d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z"
+                        stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M16 16L21 21" stroke="#717478" stroke-width="1.4" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg>
+            </span>
+            <form id="search_form">
+                <input type="search" size="30" placeholder="Search for products,brands & more" id="search_input">
+            </form>
+            <div class="recent_search">
+                <div class="recent_list">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <p>Mobile</p>
+                </div>
+            </div>
+        </div>
+        <div class="links">
+            <div class="loginBtn_container" id="login-btn">
+                <a href="" class="icon-btn" title="Login">
+                    <i class="fa-regular fa-circle-user fa-lg"></i>
+                    <span style="padding: 3px;">Login</span>
+                    <i class="fa-solid fa-angle-down icon_more"></i>
+                </a>
+
+                <div class="dropdown-content" id="dropdown">
+                    <ul width="280px">
+                        <a href="#" title="Sign Up" class="signup">
+                            <span
+                                style="font-size: 16.8px; font-family: sans-serif; font-weight: 300; color: black;" >New
+                                Customer?</span>
+                            <span
+                                style="font-size: 16.8px; font-family: sans-serif; font-weight: 700; color: rgb(67, 67, 207);">Sign
+                                Up</span>
+                        </a>
+                        <li><a href="#" style="padding-top:7px; gap: 10px;">
+                                <i class="fa-regular fa-circle-user"></i>
+                                <span>My Profile</span></a></li>
+                        <li>
+                            <a href="#">
+                                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkplus-4ff29a.svg"
+                                    alt="Flipkart Plus Zone" height="17" width="17"><span>Flipkart Plus Zone</span>
+                            </a>
+                        </li>
+                        <li><a href="#">
+                                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/orders-bfe8c4.svg"
+                                    alt="Orders" height="17" width="17">
+                                <span>Orders</span></a></li>
+                        <li><a href="#">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>Wishlist</span></a></li>
+                        <li><a href="">
+                                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/rewards-fbd212.svg"
+                                    alt="Rewards" height="17" width="17">
+                                <span>Rewards</span></a></li>
+                        <li><a href="">
+                                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/giftCard-bd87e1.svg"
+                                    alt="Gift Cards" height="17" width="17">
+                                <span>Gift Cards</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="https://www.flipkart.com/viewcart?exploreMode=true&preference=FLIPKART" class="icon-btn"
+                title="Cart">
+                <img src="header_cart-eed150.svg" alt="">
+                <span>Cart</span>
+            </a>
+            <a href="https://seller.flipkart.com/sell-online?utm_source=fkwebsite&utm_medium=websitedirect"
+                class="icon-btn" title="Become a seller">
+                <img src="seller.svg" alt="">
+                <span>Become a seller</span>
+            </a>
+            <div class="more_link">
+                <!--<a href="" class="icon-btn" title="Dropdown with more help links">-->
+                <img src="more.svg" alt="Dropdown with more help links" title="Dropdown with more help links">
+                <div class="more_menu">
+                    <div class="more_menu_list">
+                        <a href="https://www.flipkart.com/communication-preferences/push?t=all"
+                            title="Notification Preferences">
+                            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/notificationPreferences-cfffaf.svg"
+                                alt="">
+                            <p>Notification Preferences</p>
+                        </a>
+                        <a href="https://www.flipkart.com/helpcentre" title="24x7 Customer Care">
+                            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/helpcenter-7d90c0.svg"
+                                alt="">
+                            <p>24x7 Customer Care</p>
+                        </a>
+                        <a href="https://advertising.flipkart.com/login?returl=/?otracker=ch_vn_advertise_header"
+                            title="Advertise">
+                            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-298691.svg"
+                                alt="">
+                            <p>Advertise</p>
+                        </a>
+                        <a href="https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps" title="Download App">
+                            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/downloadApp-2ea657.svg"
+                                alt="">
+                            <p>Download App</p>
+                        </a>
+
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="categories">
+            <div class="cat-card">
+                <a
+                    href="https://www.flipkart.com/bigdiwali-sale1-store?fm=neo%2Fmerchandising&iid=M_b2a6da5f-cd84-4a04-9993-f83bd750f891_1_KUZ8W60OFFMO_MC.D7M05PTZUYRA&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Top%2BOffers_D7M05PTZUYRA&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=D7M05PTZUYRA">
+                        <img src="./categories/1.webp" alt="">
+                        <h4>Top Offers</h4>
+                </a>
+    </div>
+        <div class="cat-card">
+            <a href="https://www.flipkart.com/mobile-phones-store?param=47859&fm=neo%2Fmerchandising&iid=M_8e011e66-3079-496e-9394-ef42589f0115_1_KUZ8W60OFFMO_MC.BYIXDBQAWBHQ&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles%2B%26%2BTablets_BYIXDBQAWBHQ&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=BYIXDBQAWBHQ">
+                <img src="./categories/2.webp" alt="">
+                <h4>Mobile & Tablets</h4>
+            </a>
+        </div>
+        <div class="cat-card">
+            <a href="https://www.flipkart.com/big-diwali-sale-oct24-store?fm=neo%2Fmerchandising&iid=M_613d41bb-6c63-4ccf-8f9d-da2685761075_1_KUZ8W60OFFMO_MC.8TVKUWT87M16&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_TVs%2B%26%2BAppliances_8TVKUWT87M16&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L0_view-all&cid=8TVKUWT87M16">
+                <img src="./categories/3.webp" alt="">
+                <h4>TV & Appliances</h4>
+            </a>
+        </div>
+        <div class="cat-card">
+            <a href="https://www.flipkart.com/big-diwali-sale-electronics-store?fm=neo%2Fmerchandising&iid=M_3f0ecc36-5e34-404b-aa62-ddd53ed5a6da_1_KUZ8W60OFFMO_MC.KCBBC8GGWR9V&otracker=hp_rich_navigation_4_1.navigationCard.RICH_NAVIGATION_Electronics_KCBBC8GGWR9V&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_4_L0_view-all&cid=KCBBC8GGWR9V">
+                <img src="./categories/4.webp" alt="">
+                <h4>Electronics</h4>
+            </a>
+        </div>
+    
+    
+        <div class="cat-card">
+            <a href="https://www.flipkart.com/bbd-lb24-sale-store?fm=neo%2Fmerchandising&iid=M_34f8ca76-4f24-490e-96bb-e4177e0a9c41_1_KUZ8W60OFFMO_MC.SPCD9CW12PGK&otracker=hp_rich_navigation_5_1.navigationCard.RICH_NAVIGATION_Fashion_SPCD9CW12PGK&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_5_L0_view-all&cid=SPCD9CW12PGK">
+                <img src="./categories/5.webp" alt="">
+                <h4>Fashion</h4>
+            </a>
+        </div>
+    
+    
+        <div class="cat-card">
+            <a href="https://www.flipkart.com/diwali-bgm-sale24-store?fm=neo%2Fmerchandising&iid=M_ccc40c70-0234-4eb2-a523-7ee8a07c4d41_1_KUZ8W60OFFMO_MC.3HG9V6MXYB5P&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_Beauty%2C%2BFood.._3HG9V6MXYB5P&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L0_view-all&cid=3HG9V6MXYB5P">
+                <img src="./categories/6.webp" alt="">
+                <h4>Beauty</h4>
+            </a>
+        </div>
+    
+    
+        <div class="cat-card">
+            <a href="https://www.flipkart.com/hnf-bds3-sale-24-store?fm=neo%2Fmerchandising&iid=M_1d256619-2128-4a0e-98cc-c623bbac452e_1_KUZ8W60OFFMO_MC.IF1WVE47NIXO&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Home%2B%26%2BKitchen_IF1WVE47NIXO&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L0_view-all&cid=IF1WVE47NIXO">
+                <img src="./categories/7.webp" alt="">
+                <h4>Home & Kitchen</h4>
+            </a>
+        </div>
+    
+    
+        <div class="cat-card">
+            <a href="https://www.flipkart.com/fur-big-diwali-sale-store?fm=neo%2Fmerchandising&iid=M_c24070af-5103-480f-8d48-c891a96f405e_1_KUZ8W60OFFMO_MC.DF4ISSCHXW05&otracker=hp_rich_navigation_8_1.navigationCard.RICH_NAVIGATION_Furniture_DF4ISSCHXW05&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_8_L0_view-all&cid=DF4ISSCHXW05">
+                <img src="./categories/8.webp" alt="">
+                <h4>Furniture</h4>
+            </a>
+        </div>
+    
+    
+        <div class="cat-card">
+            <a href="https://www.flipkart.com/travel/flights?param=itsimetofly-boknow-travel-utsav-2024&fm=neo%2Fmerchandising&iid=M_b2b1c642-79a0-4329-92ab-faf30aae4a50_1_KUZ8W60OFFMO_MC.9ODHZCZ094O6&otracker=hp_rich_navigation_9_1.navigationCard.RICH_NAVIGATION_Travel_9ODHZCZ094O6&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_9_L0_view-all&cid=9ODHZCZ094O6">
+                <img src="./categories/9.webp" alt="">
+                <h4>Travel</h4>
+            </a>
+        </div>
+    
+    
+        <div class="cat-card">
+            <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_c4bfbdaa-7ac6-477a-b081-973a1d651e87_1_KUZ8W60OFFMO_MC.4BYE6NISISOE&otracker=hp_rich_navigation_10_1.navigationCard.RICH_NAVIGATION_Grocery_4BYE6NISISOE&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_10_L0_view-all&cid=4BYE6NISISOE">
+                <img src="./categories/10.webp" alt="">
+                <h4>Grocery</h4>
+            </a>
+        </div>
+    </div>
+
+    <section class="container">
+        <div class="slidercontainer">
+            <div class="slider">
+                <div class="slidericon">
+                    <div class="sileft">
+                        <button class="sileft-btn" id="preve_imageBtn"><i class="fa-solid fa-angle-left"></i></button>
+                    </div>
+                    <div class="siright">
+                        <button class="siright-btn" id="next_imageBtn"><i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </div>
+                <div class="imageSliderList" id="imageSliderContainer">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bestElectronic-container">
+        <div class="left-part">
+            <div class="leftpart-top">
+                <div class="leftpart-top-content">
+                    <h2>Best of Electronics</h2>
+                </div>
+                <a
+                    href="https://www.flipkart.com/offers-list/content?screen=dynamic&pk=themeViews%3DDT-OMU-1%3ADealcard~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU">
+                    <button class="Viewall-btn"><i class="fa-solid fa-angle-right"></i></button>
+                </a>
+            </div>
+            <div class="card-product-main-container">
+                <!--<button class="card-btn" id="card-btn-left"><i class="fa-solid fa-angle-left fa-2xs"></i></button>-->
+                <div class="card-btn-container">
+                    <button class="card-btn" id="card-btn-left"><i class="fa-solid fa-angle-left"></i></button>
+                </div>
+                <div class="translatebody-card">
+                    <div class="leftpart-card-container" id="card-product-container">
+                        <div class="card-product">
+                            <a href="">
+                                <img src="/p1.webp" alt="">
+                                <h4 class="card-product-name">Best Selling Speakers</h4>
+                                <p class="card-product-price">From ₹499*</p>
+                        </a>
+                            
+                        </div>
+                        <div class="card-product">
+                            <img src="./categories/p2.jpeg" alt="">
+                            <h4 class="card-product-name">Best Wireless Earbuds</h4>
+                            <p class="card-product-price">From ₹799</p>
+                        </div>
+                        <div class="card-product">
+                            <img src="categories/p3.jpeg" alt="">
+                            <h4 class="card-product-name">Top Mirrorless Cameras</h4>
+                            <p class="card-product-price">Shop Now!</p>
+                        </div>
+                        <div class="card-product">
+                            <img src="categories/p4.jpeg" alt="">
+                            <h4 class="card-product-name">Fastrack SmartWatches</h4>
+                            <p class="card-product-price">From 1,399</p>
+                        </div>
+                        <div class="card-product">
+                            <img src="categories/p5.jpeg" alt="">
+                            <h4 class="card-product-name">Best Printers</h4>
+                            <p class="card-product-price">From 2,099</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-btn-container">
+                    <button class="card-btn" id="card-btn-right"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="right-part">
+            <a
+                href="https://www.flipkart.com/search?q=chromebook+laptop&sid=6bo%2Cb5g&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_2_6_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_2_6_na_na_na&as-pos=2&as-type=RECENT&suggestionId=chromebook+laptop%7CLaptops&requestId=75cc7f85-0f08-4dcc-be51-41107fc7897b&as-searchtext=chromebook%20laptop">
+                <img src="categories/chromebook.webp" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="bigcontainer">
+        <div class="fashion-container">
+            <div class="fashion-top-part"><p>Fashion's Top Deals</p>
+                <a href="https://www.flipkart.com/offers-list/recommended-for-you?screen=dynamic&pk=contentTags%3DGCD_THEME_2~marketplace%3DFLIPKART~widgetType%3DdealCard~contentType%3DpersonalisedRecommendation%2FC5&marketplace=FLIPKART">
+                    <button class="fashion-Viewall-btn"><i class="fa-solid fa-angle-right"></i></button>
+                </a>
+            </div>
+            <div class="fashion-product">
+                <div class="fashion-product-part1">
+                    <a href="https://www.flipkart.com/all/~cs-02ed9a3bb10d234502fdd0912dc03715/pr?sid=clo,qvw,z0g,jbm&marketplace=FLIPKART&restrictLocale=true">
+                        <img src="./Men jacket.webp" alt="">
+                        <h3 class="card-product-name">Men's Jacket</h3>
+                        <p class="card-product-price">Special Offer</p>
+                    </a>
+                    <a href="https://www.flipkart.com/all/~cs-3bd49a8c44c9ba23a9d223ecf7511e45/pr?sid=clo,8on,zpd,9og&marketplace=FLIPKART&restrictLocale=true">
+                        <img src="./saare.webp" alt="">
+                        <h3 class="card-product-name">Women's Saare</h3>
+                        <p class="card-product-price">Specials</p>
+                    </a>
+                </div>
+                <div class="fashion-product-part2">
+                    <a href="https://www.flipkart.com/all/~cs-3bea98ebc7086c7577616b8e5476f017/pr?sid=clo,odx,od7,0xx&marketplace=FLIPKART&restrictLocale=true">
+                        <img src="./anarkali.webp" alt="">
+                    <h3 class="card-product-name">Women's Gown</h3>
+                        <p class="card-product-price">Top Seller</p>
+                    </a>
+                    <a href="https://www.flipkart.com/all/~cs-535325405061692346a2a501511e729f/pr?sid=clo,cfv,cib,rkt&marketplace=FLIPKART&restrictLocale=true">
+                        <img src="./kurti.webp" alt="">
+                        <h3 class="card-product-name">Women's Kurtas</h3>
+                        <p class="card-product-price">Best Deals</p>
+                    </a>
+                </div>
+            </div>
+                
+                <!--<div class="fashion-card-container">
+                    <div class="fashion-product-part1">
+                        <a href="">
+                            <img src="./Men jacket.webp" alt="">
+                            <h4 class="card-product-name">Men's Jacket</h4>
+                            <p class="card-product-price">Special Offer</p>
+                        </a>
+                        <a href="">
+                            <img src="./saare.webp" alt="">
+                            <h4 class="card-product-name">Women's Saare</h4>
+                            <p class="card-product-price">Specials</p>
+                        </a>
+                    </div>
+                    <div class="fashion-product-part2">
+                        <a href="">
+                            <img src="./anarkali.webp" alt="">
+                        <h4 class="card-product-name">Women's Gown</h4>
+                            <p class="card-product-price">Top Seller</p>
+                        </a>
+                        <a href="">
+                            <img src="./kurti.webp" alt="">
+                            <h4 class="card-product-name">Women's Kurtas</h4>
+                            <p class="card-product-price">Best Deals</p>
+                        </a>
+                    </div>-->
+          
+        </div>   
+        <div class="fashion-right-part">
+            <a href="https://www.flipkart.com/jhg/6w8/jjg/~cs-tgpbhh9qwq/pr?sid=jhg%2C6w8%2Cjjg&collection-tab-name=Rice+Lights+&pageCriteria=default&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured"> 
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/520/280/image/bca2e02ceebc1d33.jpg?q=20" alt="" style="height: 650px; width: 995px;">
+        </a>
+        </div>           
+    </div>
+    <div class="lowest-price-container">
+        <div class="lowest-price-item">
+            <div class="lowest-top-part">
+                <p>Lowest Prices</p>
+                <a href="https://www.flipkart.com/offers-list/lowest-price?screen=dynamic&pk=themeViews%3DDT-BDS3-Low-Asp%3AOMU~widgetType%3DdealCard~contentType%3Dneo">
+                    <button class="lowest-Viewall-btn"><i class="fa-solid fa-angle-right"></i></button>
+                </a>
+            </div>
+            <div class="lowest-item-part">
+                <a href="https://www.flipkart.com/mens-footwear/pr?sid=osp%2Ccil&p%5B%5D=facets.brand%255B%255D%3DWROGN%2BACTIVE&p%5B%5D=facets.brand%255B%255D%3DPUMA&p%5B%5D=facets.brand%255B%255D%3DADIDAS&p%5B%5D=facets.brand%255B%255D%3DNIKE&p%5B%5D=facets.brand%255B%255D%3DREEBOK&p%5B%5D=facets.brand%255B%255D%3DHRX%2Bby%2BHrithik%2BRoshan&p%5B%5D=facets.brand%255B%255D%3DYONEX&p%5B%5D=facets.brand%255B%255D%3DPOWER&p%5B%5D=facets.brand%255B%255D%3DSLAZENGER&p%5B%5D=facets.brand%255B%255D%3DSkechers&p%5B%5D=facets.brand%255B%255D%3DNIVIA&p%5B%5D=facets.brand%255B%255D%3DLOTTO&p%5B%5D=facets.brand%255B%255D%3DNew%2BBalance&p%5B%5D=facets.brand%255B%255D%3DBROOKS&p%5B%5D=facets.brand%255B%255D%3DXtep&p%5B%5D=facets.brand%255B%255D%3DFILA&p%5B%5D=facets.brand%255B%255D%3DSALOMON&p%5B%5D=facets.brand%255B%255D%3DSAUCONY&p%5B%5D=facets.brand%255B%255D%3DALTRA&p%5B%5D=facets.brand%255B%255D%3DCAMPUS&p%5B%5D=facets.brand%255B%255D%3DANTA&p%5B%5D=facets.brand%255B%255D%3DAsics&p%5B%5D=facets.brand%255B%255D%3DUNDER%2BARMOUR&p%5B%5D=facets.brand%255B%255D%3DM7%2BBy%2BMetronaut&p%5B%5D=facets.discount_range_v1%255B%255D%3D60%2525%2Bor%2Bmore&param=83&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJNaW4uIDYwJSBPZmYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJQVU1BLCBBRElEQVMuLi4iXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJTSE9HNEpFWU5TQ0I1QlU1IiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fX19fQ%3D%3D">
+                    <img src="./PumaShoe.webp" alt="">
+                    <h3 class="lowest-product-name">PUMA,ADIDAS...</h3>
+                    <p class="card-product-price">Min. 60% Off</p>
+                </a>
+                <a href="https://www.flipkart.com/food-products/dry-fruit-nut-seed/~cs-p32sb6uz6j/pr?sid=eat%2Cltb&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&p%5B%5D=facets.brand%255B%255D%3DHappilo&p%5B%5D=facets.brand%255B%255D%3DTrue%2BElements&p%5B%5D=facets.brand%255B%255D%3DNeuherbs&p%5B%5D=facets.brand%255B%255D%3DNutraj&p%5B%5D=facets.brand%255B%255D%3DWONDERLAND&p%5B%5D=facets.brand%255B%255D%3DFarmley&p%5B%5D=facets.brand%255B%255D%3DOPEN%2BSECRET&p%5B%5D=facets.brand%255B%255D%3DYogabar&p%5B%5D=facets.brand%255B%255D%3DManna&p%5B%5D=facets.brand%255B%255D%3DGranola&p%5B%5D=facets.brand%255B%255D%3DTulsi&p%5B%5D=facets.brand%255B%255D%3DNaturoz&p%5B%5D=facets.brand%255B%255D%3DMr.Nuttz&p%5B%5D=facets.brand%255B%255D%3D41%2Bfoods&p%5B%5D=facets.brand%255B%255D%3DGreenfinity&p%5B%5D=facets.brand%255B%255D%3DYUM%2BYUM&p%5B%5D=facets.brand%255B%255D%3DTata%2BSampann&p%5B%5D=facets.brand%255B%255D%3DBLK%2BFOODS&p%5B%5D=facets.brand%255B%255D%3DScorist&param=989898&hpid=KM6Pjnf8EGhpAF17AzVGxqp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJNaW4gMzUlIE9mZiJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6Ik5ERkc2WVo2UUc4NlVBUFAiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJGb29kIFByb2R1Y3RzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D">
+                    <img src="./almond.webp" alt="">
+                    <h3 class="card-product-name">Food Products</h3>
+                    <p class="card-product-price">Min. 35% Off</p>
+                </a>
+                <a href="https://www.flipkart.com/arb/~cs-gglqkqa4lc/pr?sid=arb&collection-tab-name=Painting&pageCriteria=default&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&hpid=oxrg7tC6ir9TYfbu4f6ktap7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJNaW4uIDUwJSBPZmYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJQVEdHQVJTTlpUS0NSUkdRIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiUGFpbnRpbmciXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19">
+                    <img src="./painting.webp" alt="">
+                    <h3 class="card-product-name">Painting</h3>
+                    <p class="card-product-price">Min. 50% Off</p>
+                </a>
+                <a href="https://www.flipkart.com/arb/~cs-k3qe5ilw2e/pr?sid=arb&collection-tab-name=Key+holder&pageCriteria=default&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3D299&hpid=MJEkJG5HDLQrNfMIM9gZDKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVbmRlciDigrkyOTkiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJLSFJHSFc3V0g4UzlER1lEIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiS2V5IEhvbGRlciJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D">
+                    <img src="./keyholder.webp" alt="">
+                    <h3 class="card-product-name">Keyholder</h3>
+                    <p class="card-product-price">Under ₹299</p>
+                </a>
+                <a href="https://www.flipkart.com/qoc/~cs-cbkumlbg55/pr?sid=qoc&collection-tab-name=Yoga+Fitness-MP+Deals&pageCriteria=default&hpid=fii2VrvhiX-g73wf8NcJR6p7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuSA5OSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IktJVEdIR1pCNkhLWTZKVUUiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJZb2dhICYgRml0bmVzcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D">
+                    <img src="./yoga.webp" alt="">
+                    <h3 class="card-product-name">Yoga & Fitness</h3>
+                    <p class="card-product-price">From ₹99</p>
+                </a>
+                <a href="https://www.flipkart.com/books/selfhelp-books/pr?sid=bks%2C5uw&p%5B%5D=facets.discount_range_v1%255B%255D%3D60%2525%2Bor%2Bmore&sort=popularity&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.offer_type%255B%255D%3DSpecial%2BPrice&param=4567890&hpid=Gx3MHOx0nJUQEiO66-oCYQ%3D%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiOTc4MTk4OTU4ODM0NSIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlNlbGYgSGVscCBCb29rcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D">
+                    <img src="https://th.bing.com/th/id/OIP.eDeVHtZafEeKs0DadjGI3wHaHa?w=175&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="">
+                    <h3 class="lowest-product-name">Self-Help Books</h3>
+                    <p class="card-product-price">From ₹49</p>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+
+    <script type="module" src="flipkart.js"></script>
+    
+</body>
+<footer class="footer">
+    <div class="footer-container">
+        <!-- About Section -->
+        <div class="footer-section">
+            <h4>About</h4>
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Flipkart Stories</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Flipkart Wholesale</a></li>
+            </ul>
+        </div>
+
+        <!-- Help Section -->
+        <div class="footer-section">
+            <h4>Help</h4>
+            <ul>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Cancellation & Returns</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Report Infringement</a></li>
+            </ul>
+        </div>
+
+        <!-- Policy Section -->
+        <div class="footer-section">
+            <h4>Policy</h4>
+            <ul>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">EPR Compliance</a></li>
+            </ul>
+        </div>
+
+        <!-- Social Section -->
+        <div class="footer-section">
+            <h4>Social</h4>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">YouTube</a></li>
+            </ul>
+        </div>
+
+        <!-- Address and Contact Section -->
+        <div class="footer-section address">
+            <h4>Mail Us:</h4>
+            <p>Flipkart Internet Private Limited,<br>
+                Buildings Alyssa, Begonia &<br>
+                Clove Embassy Tech Village,<br>
+                Outer Ring Road, Devarabeesanahalli Village,<br>
+                Bengaluru, 560103,<br>
+                Karnataka, India
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <p>© 2024 Flipkart</p>
+    </div>
+</footer>
+
+
+</html>
