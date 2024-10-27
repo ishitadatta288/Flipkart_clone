@@ -1,11 +1,11 @@
 FILPKART CLONE
 
-Project Overview
-Briefly describe your project and its purpose. For example:
+Project Overview:
 
 "This project is a clone of the Flipkart e-commerce platform, built to replicate some core functionalities and demonstrate skills in frontend and backend development. It includes essential features such as browsing products, adding items to the cart, and user authentication."
 
-Features
+Features:
+
 List out the key features of the project, such as:
 
 1. User authentication and authorization
@@ -14,20 +14,18 @@ List out the key features of the project, such as:
 4. Responsive design for different devices
 5. Product reviews and ratings
 
-Tech Stack
-List the technologies and tools you used. For example:
+Tech Stack:
 
 Frontend: HTML, CSS, JavaScript.
 Other tools: Git, GitHub, APIs, etc.
 
-Usage
-Explain how to use the project once it's set up. You might include:
+Usage:
 
-How to sign in or sign up
-Steps to add products to the cart and place an order
-Any special features or routes (such as an admin panel)
-Contributing
-If you’d like others to contribute, explain how they can do so. For example:
+1. How to sign in or sign up
+2. Steps to add products to the cart and place an order
+3. Any special features or routes (such as an admin panel)
+4. Contributing
+5. If you’d like others to contribute, explain how they can do so. For example:
 
 Fork the repository.
 Create a new branch (git checkout -b feature/YourFeature).
