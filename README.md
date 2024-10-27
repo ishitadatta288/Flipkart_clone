@@ -25,10 +25,10 @@ Usage:
 2. Steps to add products to the cart and place an order
 3. Any special features or routes (such as an admin panel)
 4. Contributing
-5. If you’d like others to contribute, explain how they can do so. For example:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/YourFeature).
-Commit changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature/YourFeature).
-Open a pull request.
+Fork the repository:
+
+1. Create a new branch (git checkout -b feature/YourFeature).
+2. Commit changes (git commit -m 'Add new feature').
+3. Push to the branch (git push origin feature/YourFeature).
+4. Open a pull request.
